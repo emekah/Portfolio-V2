@@ -1,0 +1,27 @@
+@import "./../../styles/variables";
+@import "./../../styles/global";
+@import "./../../styles/functions";
+
+.footer {
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &__container {
+    max-width: calcRem(600px);
+  }
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: calcRem(20px);
+  }
+  &__credit {
+    p {
+      font-size: calcRem(12px);
+    }
+  }
+}
