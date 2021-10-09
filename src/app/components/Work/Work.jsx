@@ -32,7 +32,7 @@ const Work = () => {
         <hr className="horizontal-line" />
 
         <ProjectFlip
-          desc="A single-page website developed using React JS also utilised useSate and useEffect "
+          desc="A single-page website developed using React JS also utilising useSate and useEffect "
           imageSource={Avo}
           projectTitle="Personal Project"
           url="https://emekah.github.io/timpa/"

@@ -10,7 +10,7 @@
   padding-top: calcRem(130px);
   padding-left: calcRem(100px) !important;
   @include media-breakpoint-down(lg) {
-    padding-top: calcRem(20px);
+    padding-top: calcRem(70px);
     padding-left: calcRem(20px) !important;
   }
   &__name {
