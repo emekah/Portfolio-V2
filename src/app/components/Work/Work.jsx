@@ -35,7 +35,7 @@ const Work = () => {
           desc="A single-page website developed using React JS also utilising useSate and useEffect "
           imageSource={Avo}
           projectTitle="Personal Project"
-          url="https://emekah.github.io/timpa/"
+          url="https://avocars.netlify.app"
           title="Avo"
           techOne="React"
           techTwo="SCSS"
