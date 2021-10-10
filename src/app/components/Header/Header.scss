@@ -20,8 +20,11 @@
 .nav-logo {
   display: flex;
   align-items: baseline;
-  h3 {
-    color: $green;
+  a {
+    color: $green !important;
+    text-decoration: none;
+    font-size: calcRem(30px);
+    cursor: pointer;
   }
 }
 
@@ -80,6 +83,7 @@
 .nav-link {
   color: $skyblue !important;
   padding-right: calcRem(30px) !important;
+  cursor: pointer;
 }
 
 .nav-link:hover {

@@ -6,7 +6,7 @@ import Emeka from "./../../assets/images/emekah3.jpg";
 const About = () => {
   return (
     <div className="app__container">
-    <div className="row about">
+    <div className="row about" id="about">
           <div className="col-lg-6">
             <h3>About Me</h3>
             <p className="about__desc">

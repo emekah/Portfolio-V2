@@ -10,7 +10,7 @@ import Avo from "./../../assets/images/avo-proj.png";
 const Work = () => {
   return (
     <div className="container app__container">
-      <div className="work">
+      <div className="work" id="projects">
         <h3 className="">Projects I've Worked On...</h3>
         
 
@@ -18,7 +18,8 @@ const Work = () => {
           desc="Of course I had to make me a website too! This portfolio website was developed using React, SCSS and Bootstrap. I also made the design using Adobe XD."
           imageSource={Portfolio}
           projectTitle="Personal Project"
-          url="https://emekah.github.io/timpa/"
+          url="https://emekaosuji.netlify.app"
+          url2="https://github.com/emekah/Portfolio-V2"
           title="Portfolio Website"
           techOne="React"
           techTwo="SCSS"
@@ -36,6 +37,7 @@ const Work = () => {
           imageSource={Avo}
           projectTitle="Personal Project"
           url="https://avocars.netlify.app"
+          url2="https://github.com/emekah/Avo"
           title="Avo"
           techOne="React"
           techTwo="SCSS"
@@ -72,6 +74,7 @@ const Work = () => {
           imageSource={Timpa}
           projectTitle="Personal Project"
           url="https://emekah.github.io/timpa/"
+          url2="https://github.com/emekah/timpa/"
           title="Timpa"
           techOne="HTML"
           techTwo="CSS"

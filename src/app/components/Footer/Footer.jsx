@@ -6,7 +6,7 @@ import { AiOutlineBehance, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="footer p-2 pt-5">
+    <div className="footer p-2 pt-5" id="contact">
       <div className="footer__container">
         <div className="footer__header">
           <h3>Get In Touch</h3>

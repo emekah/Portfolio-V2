@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 const Hero = () => {
   return (
     <div className="container app__container">
-    <div className="row app__hero">
+    <div className="row app__hero" id="hero">
     <div className="col-lg-9">
       <div className="app__hero__name">
         <p className="app__hero__name__first">Hi, my name is </p>
