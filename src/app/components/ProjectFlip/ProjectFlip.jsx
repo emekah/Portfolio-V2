@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 const ProjectFlip = (props) => {
   return (
     <div className="row work__content">
-      <div className="col-lg-6">
+      <div className="col-lg-6 order-lg-1 order-sm-2 order-2">
         <p className="text-green text-small">{props.projectTitle}</p>
         <div className="work__header">
           <h3>{props.title}</h3>
@@ -39,7 +39,7 @@ const ProjectFlip = (props) => {
           </div>
         </div>
       </div>
-      <div className="col-lg-6 work__first">
+      <div className="col-lg-6 work__first order-lg-2 order-sm-1 order-1">
         <a href={props.url} target="_blank" rel="noreferrer">
           <img src={props.imageSource} alt="Heyward" />
         </a>
