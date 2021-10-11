@@ -10,7 +10,7 @@
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s,
-    transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
 .work__content {
@@ -33,14 +33,12 @@
     filter: none;
     -webkit-filter: grayscale(0);
   }
-  
 }
 
 .work__first img:hover {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
-
 
 .work__header {
   display: flex;
@@ -51,6 +49,7 @@
     font-size: 18px;
   }
 }
+
 .work__footer {
   display: flex;
   flex-direction: row;
@@ -64,3 +63,5 @@
     font-size: calcRem(12px);
   }
 }
+
+

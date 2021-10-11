@@ -46,9 +46,6 @@ const Header = () => {
               <Link to="contact" className="nav-link">
                 contact
               </Link>
-              <Link to="" className="">
-                <Button className="btn-green">resume</Button>
-              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

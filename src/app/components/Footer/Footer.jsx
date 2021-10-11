@@ -39,6 +39,7 @@ const Footer = () => {
               style={{ fontSize: "25px", marginRight: "10px" }}
             />
           </div>
+          
         </div>
         <div className="footer__credit pt-5">
           <p>Designed and Developed by Emeka Osuji</p>

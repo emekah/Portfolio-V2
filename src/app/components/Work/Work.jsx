@@ -6,13 +6,13 @@ import Heyward from "./../../assets/images/heywardPortfolio.png";
 import Portfolio from "./../../assets/images/portfolio-proj.png";
 import Timpa from "./../../assets/images/timpa-proj.png";
 import Avo from "./../../assets/images/avo-proj.png";
+import UI from "./../../assets/images/ui-design.png";
 
 const Work = () => {
   return (
     <div className="container app__container">
       <div className="work" id="projects">
         <h3 className="">Projects I've Worked On...</h3>
-        
 
         <Project
           desc="Of course I had to make me a website too! This portfolio website was developed using React, SCSS and Bootstrap. I also made the design using Adobe XD."
@@ -81,6 +81,23 @@ const Work = () => {
           techThree="Bootstrap"
           techFour=""
           techFive=""
+          techSix=""
+          techSeven=""
+        />
+
+        <hr className="horizontal-line" />
+
+        <Project
+          desc="Sometimes I get a chance to design amazing UIs. I have a dedicated Behance account for my designs. Please feel free to have a look!"
+          imageSource={UI}
+          projectTitle="Worthy Mention"
+          url="https://www.behance.net/emekah"
+          title="My Design Porfolio"
+          techOne="Adobe XD"
+          techTwo="Photoshop"
+          techThree="Adobe Illustrator"
+          techFour="Wireframing"
+          techFive="Prototyping"
           techSix=""
           techSeven=""
         />
