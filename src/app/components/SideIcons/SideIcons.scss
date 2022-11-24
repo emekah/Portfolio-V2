@@ -1,0 +1,43 @@
+@import "./../../styles/variables";
+@import "./../../styles/global";
+@import "./../../styles/functions";
+
+.sideIcons {
+  position: fixed;
+  bottom: 0;
+  left: calcRem(10px);
+  right: auto;
+  z-index: 10;
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.sideIcons ul {
+  list-style: none;
+}
+
+.sideIcons li a {
+  color: $skyblue !important;
+  padding: calcRem(10px);
+}
+
+.sideIcons li a:hover,
+.sideEmail a:hover {
+  color: $green !important;
+  transform: translateY(-5px);
+}
+
+.sideIcons ul::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: $skyblue;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}

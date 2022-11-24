@@ -1,0 +1,92 @@
+@import './variables';
+
+p, h1, h2, h3,h4 {
+  color: $skyblue;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none !important;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+}
+
+h1, h2, h3, h4 {
+  font-family: $arimo;
+  font-weight: $fontBold;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+
+.sm {
+  font-size: calcRem(28px) !important;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-arimo {
+  font-family: $arimo;
+}
+
+.text-opensans {
+  font-family: $opensans;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-skyblue {
+  color: $skyblue;
+}
+
+.text-small {
+  font-size: calcRem(12px);
+}
+
+.text-huge {
+  font-size: calcRem(30px);
+}
+
+/** Buttons **/
+.horizontal-line {
+  width: calcRrem(20px);
+  height: calcRem(1px);
+  background-color: $green;
+}
+
+.btn-green {
+  border-color: $green !important;
+  border-radius: 30px !important;
+  background-color: transparent !important;
+  font-size: calcRem(10px) !important;
+  padding-left: calcRem(20px);
+  padding-right: calcRem(20px);
+  color: $skyblue;
+  margin: 0;
+  font-size: calcRem(12px);
+}
+
+.btn-green:hover {
+  background-color: $green !important;
+  border: none;
+  color: $navyblue !important;
+}
+
+.btn-green a:hover {
+  background-color: $green !important;
+  border: none;
+  color: $navyblue !important;
+}

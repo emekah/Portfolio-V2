@@ -1,0 +1,41 @@
+@import "./../../styles/variables";
+@import "./../../styles/global";
+@import "./../../styles/functions";
+
+.sideEmail {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  left: auto;
+  right: 10px;
+  z-index: 10;
+  color: $skyblue;
+  &__address {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+  }
+  &__address a {
+    margin: 20px auto;
+    padding: 10px;
+    text-decoration: none;
+    color: $skyblue;
+    font-size: 13px;
+    letter-spacing: 0.25em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+  }
+  &__address::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: $skyblue;
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}

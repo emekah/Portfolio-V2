@@ -1,0 +1,45 @@
+@import "./../../styles/variables";
+@import "./../../styles/global";
+@import "./../../styles/functions";
+
+
+.app__hero {
+  min-height: 100vh;
+  // display: flex;
+  // align-items: center;
+  padding-top: calcRem(130px);
+  padding-left: calcRem(100px) !important;
+  @include media-breakpoint-down(lg) {
+    padding-top: calcRem(70px);
+    padding-left: calcRem(20px) !important;
+  }
+  &__name {
+    font-size: calcRem(18px);
+    &__first {
+      transition-delay: 100ms;
+    }
+    &__second {
+      transition-delay: 200ms;
+      font-size: calcRem(40px);
+    }
+  }
+  &__desc {
+    font-size: calcRem(18px);
+    transition-delay: 400ms;
+  }
+  &__job {
+    font-size: calcRem(60px) !important;
+    transition-delay: 300ms;
+  }
+  &__cta {
+    transition-delay: 400ms;
+    color: white;
+    margin-right: 15px !important;
+  }
+  &__cta__second:hover {
+    color: black !important;
+  }
+  
+}
+
+
