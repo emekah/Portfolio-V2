@@ -21,7 +21,7 @@ const Footer = () => {
           <Button className="app__hero__cta btn-green my-3">Say Hello</Button>
         </div>
         <div className="footer__icons">
-          <a href="https://github.com/emekah" target={"_blank"}>
+          <a href="https://github.com/emekah" target={"_blank"} without rel="noreferrer">
             <div className="footer__icons__github">
               <ImGithub
                 className="text-green"
@@ -29,7 +29,7 @@ const Footer = () => {
               />
             </div>
           </a>
-          <a href="https://www.behance.net/emekah" target={"_blank"}>
+          <a href="https://www.behance.net/emekah" target={"_blank"} without rel="noreferrer">
             <div className="footer__icons__behance">
               <AiOutlineBehance
                 className="text-green"
@@ -37,7 +37,7 @@ const Footer = () => {
               />
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/emeka-peacewill/" target={"_blank"}>
+          <a href="https://www.linkedin.com/in/emeka-peacewill/" target={"_blank"} without rel="noreferrer">
             <div className="footer__icons__linkedin">
               <AiFillLinkedin
                 className="text-green"

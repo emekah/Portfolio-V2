@@ -28,7 +28,7 @@ const Hero = () => {
                 <Link to="projects">View My Frontend Projects</Link>
               </Button>
               <Button className="app__hero__cta__second btn-green my-3">
-                <a href="https://www.emekah.net" className="text-white" target={"_blank"}>View My UI Design Projects</a>
+                <a href="https://www.emekah.net" className="text-white" target={"_blank"} without rel="noreferrer">View My UI Design Projects</a>
               </Button>
             </div>
             

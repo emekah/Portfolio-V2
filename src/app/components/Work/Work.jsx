@@ -7,7 +7,7 @@ import Portfolio from "./../../assets/images/portcv.jpg";
 import Wedah from "./../../assets/images/portcv-2.jpg";
 import Timpa from "./../../assets/images/timpa-proj.png";
 import Avo from "./../../assets/images/avo-proj.png";
-import UI from "./../../assets/images/ui-design.png";
+// import UI from "./../../assets/images/ui-design.png";
 
 const Work = () => {
   return (
@@ -70,7 +70,7 @@ const Work = () => {
 
         <ProjectFlip
           desc="A web redesign and relaunch project for Heyward Group. This is by far one of the most
-                  challenging projects I’ve worked on whilst at Mr.Highline. I was responsible for creating a fresh look for their
+                  challenging projects I have worked on whilst at Mr.Highline. I was responsible for creating a fresh look for their
                   old website and later worked closely with the senior developer to develop this amazing website."
           imageSource={Heyward}
           projectTitle="Featured Project"
