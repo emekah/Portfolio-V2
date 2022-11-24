@@ -19,7 +19,7 @@ const Work = () => {
           desc="Of course I had to make me a website too! This portfolio website was developed using React, SCSS and Bootstrap. I also made the design using Adobe XD."
           imageSource={Portfolio}
           projectTitle="Personal Project"
-          url="https://emekaosuji.netlify.app"
+          url="https://emekah.github.io/Portfolio-V2/"
           url2="https://github.com/emekah/Portfolio-V2"
           title="Portfolio Website"
           techOne="React"
