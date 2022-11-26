@@ -1,16 +1,22 @@
 @import "./../../styles/variables";
 @import "./../../styles/global";
-@import "./../../styles/functions";
+// @import "./../../styles/functions";
 
 .app {
   background-color: $navyblue;
   &__container {
     padding: 0 100px !important;
-    @include media-breakpoint-down(md) {
-      padding: 0 20px !important;
-    }
+    // @include media-breakpoint-down(md) {
+    //   padding: 0 20px !important;
+    // }
   }
 
+}
+
+@media only screen and (max-width: 992px) {
+  .app__container {
+    padding: 0 20px !important;
+  }
 }
 
 

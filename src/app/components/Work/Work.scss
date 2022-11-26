@@ -1,11 +1,17 @@
 @import "./../../styles/variables";
 @import "./../../styles/global";
-@import "./../../styles/functions";
+// @import "./../../styles/functions";
 
 .work {
   margin-top: calcRem(40px);
   padding: 0 40px;
-  @include media-breakpoint-down(sm) {
+  // @include media-breakpoint-down(sm) {
+  //   padding: 0 10px;
+  // }
+}
+
+@media only screen and (max-width: 600px) {
+  .work {
     padding: 0 10px;
   }
 }

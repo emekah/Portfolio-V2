@@ -1,6 +1,6 @@
 @import "./../../styles/variables";
 @import "./../../styles/global";
-@import "./../../styles/functions";
+// @import "./../../styles/functions";
 
 .sideIcons {
   position: fixed;
@@ -8,7 +8,13 @@
   left: calcRem(10px);
   right: auto;
   z-index: 10;
-  @include media-breakpoint-down(sm) {
+  // @include media-breakpoint-down(sm) {
+  //   display: none;
+  // }
+}
+
+@media only screen and (max-width: 600px) {
+  .sideIcons {
     display: none;
   }
 }
@@ -20,7 +26,7 @@
 .sideIcons li a {
   color: $skyblue !important;
   padding: calcRem(10px);
-}
+} 
 
 .sideIcons li a:hover,
 .sideEmail a:hover {

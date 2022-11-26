@@ -1,6 +1,6 @@
 @import "./../../styles/variables";
 @import "./../../styles/global";
-@import "./../../styles/functions";
+// @import "./../../styles/functions";
 
 .sideEmail {
   width: 40px;
@@ -35,7 +35,13 @@
     margin: 0px auto;
     background-color: $skyblue;
   }
-  @include media-breakpoint-down(sm) {
+  // @include media-breakpoint-down(sm) {
+  //   display: none;
+  // }
+}
+
+@media only screen and (max-width: 600px) {
+  .sideEmail {
     display: none;
   }
 }

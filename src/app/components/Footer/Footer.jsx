@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer__desc">
           <p className="text-skyblue">
             Meeting amazing people is one of the greatest things in life. Feel
-            free to get in touch!
+            free to get in touch :)
           </p>
         </div>
         <div className="footer__cta">
