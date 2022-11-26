@@ -24,7 +24,7 @@ const Project = (props) => {
           </div>
         </div>
 
-        <p className="pt-4">{props.desc}</p>
+        <p className="py-4">{props.desc}</p>
         <div className="work__footer">
           <div className="text-green">
             <p>{props.techOne}</p>

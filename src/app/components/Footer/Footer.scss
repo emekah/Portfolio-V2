@@ -10,18 +10,18 @@
   align-items: center;
   text-align: center;
   &__container {
-    max-width: calcRem(600px);
+    max-width: 600px;
   }
   &__icons {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: calcRem(20px);
+    margin-top: 20px;
   }
   &__credit {
     p {
-      font-size: calcRem(12px);
+      font-size: 12px;
     }
   }
 }

@@ -23,7 +23,7 @@
   a {
     color: $green !important;
     text-decoration: none;
-    font-size: calcRem(30px);
+    font-size: 30px;
     cursor: pointer;
   }
 }
@@ -82,7 +82,7 @@
 
 .nav-link {
   color: $skyblue !important;
-  padding-right: calcRem(30px) !important;
+  padding-right: 30px !important;
   cursor: pointer;
 }
 
@@ -100,8 +100,8 @@
 }
 
 .logo-square {
-  width: calcRem(7px);
-  height: calcRem(7px);
+  width: 7px;
+  height: 7px;
   background-color: $green;
   justify-items: flex-end;
 }

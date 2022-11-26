@@ -20,7 +20,7 @@ const Hero = () => {
             <h1 className="text-bold text-arimo app__hero__job">
               I build things for the web
             </h1>
-            <p className="app__hero__desc pt-3">
+            <p className="app__hero__desc py-3">
               I am a Front-end Developer with a background of UI Design. I am a very passionate learner and problem solving is one of my many strengths.
             </p>
             <div className="btn__hero">

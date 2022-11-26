@@ -5,7 +5,7 @@
 .sideIcons {
   position: fixed;
   bottom: 0;
-  left: calcRem(10px);
+  left: 10px;
   right: auto;
   z-index: 10;
   // @include media-breakpoint-down(sm) {
@@ -25,7 +25,7 @@
 
 .sideIcons li a {
   color: $skyblue !important;
-  padding: calcRem(10px);
+  padding: 10px;
 } 
 
 .sideIcons li a:hover,
