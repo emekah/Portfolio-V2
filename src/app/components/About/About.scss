@@ -21,6 +21,7 @@
 
   &__desc {
     line-height: 1.7;
+    padding-top: 20px;
     padding-bottom: 20px;
   }
   &__tech {
@@ -38,6 +39,7 @@
       max-width: 400px;
       min-height: 400px;
       object-fit: cover;
+      border-radius: 30px;
       filter: none;
       -webkit-filter: grayscale(0);
     }
