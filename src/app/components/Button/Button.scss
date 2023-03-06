@@ -1,0 +1,58 @@
+@import "./../../styles/variables";
+@import "./../../styles/global";
+// @import "./../../styles/functions";
+
+.btn-outline {
+  border: 1px solid $textColor;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-outline:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.btn-outline:hover {
+  background-color: $textColor;
+  color: $white;
+  transition: 200ms ease-in-out;
+  transform: translateY(-10px);
+}
+
+// .btn-fill {
+//   color: $white !important;
+//   background-color: $textColor;
+//   padding: 10px;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   border-radius: 50px;
+//   font-size: 18px !important;
+// }
+
+.btn-fill {
+  color: $white !important;
+  background-color: $textColor;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px !important;
+}
+
+.btn-fill:hover {
+  opacity: 0.9;
+  transition: 200ms ease-in-out;
+  transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-outline, .btn-fill {
+    font-size: 14px;
+  }
+}

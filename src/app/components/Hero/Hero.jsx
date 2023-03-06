@@ -3,42 +3,45 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import Emeka from "./../../assets/images/emeka-portrait.jpg";
 
 const Hero = () => {
   return (
-    <div className="container app__container">
-      <div className="row app__hero" id="hero">
-        <div className="col-lg-9">
-          <div className="app__hero__name">
-            <p className="app__hero__name__first">Hi, my name is </p>
-            <p className="app__hero__name__second">
-              <b>
-                <span className="text-green text-bold ">Emeka Osuji.</span>
-              </b>
-            </p>
-            {/* <div className="horizontal-line"></div> */}
-            <h1 className="text-bold text-arimo app__hero__job">
-              I build things for the web
+    <div className="container hero">
+      <div className="row hero-row justify-content-center g-lg-3 g-1">
+        <div className="col-lg-8 col-md-12 col-sm-12 order-sm-1 order-last col-border">
+          <div className="hero__left ">
+            <h1 className="hero__left__title">
+              Hello, I'm Emeka, a piano player
+              who is passionate about designing 
+              and building things for the web.
             </h1>
-            <p className="app__hero__desc py-3">
-              I am a Front-end Developer with a background of UI Design. I am a very passionate learner and problem solving is one of my many strengths.
+            <p className="hero__left__subtitle">
+              With 4 years of honing my development and design skills, I have
+              built and designed brilliant web and mobile apps. Apart from
+              coding, I enjoy the process of bringing ideas from conceptual
+              stage to actualization stage. The sheer joy of overcoming every
+              huddle along the way keeps me motivated. When I'm not coding, I am
+              either writing a song, playing piano or spending quality time
+              with family.
             </p>
-            <div className="btn__hero">
-              <Button className="app__hero__cta btn-green my-3">
-                <Link to="projects">View My Frontend Projects</Link>
-              </Button>
-              <Button className="app__hero__cta__second btn-green my-3">
-                <a href="https://www.emekah.net" className="text-white" target={"_blank"} without rel="noreferrer">View My UI Design Projects</a>
-              </Button>
+            <p className="hero__left__skills text-black text-bold">
+              HTML • CSS • Tailwind CSS • Bootstrap • JavaScript • React
+            </p>
+            <div className="hero__left__cta">
+              <a href="#" className="hero__left__cta__btn btn-outline mr-2">
+                View My Resume
+              </a>
+              <a href="#" className="hero__left__cta__btn btn-outline ">
+                Contact Me
+              </a>
             </div>
-            
           </div>
         </div>
-        <div className="scroll justify-content-center">
-          <p>Scroll Down</p>
-          <AiOutlineArrowDown className="text-green"/>
+
+        <div className="col-lg-4 col-md-12 col-sm-12 order-lg-2 hero__right col-border">
+          <img src={Emeka} alt="Profile Photo" />
         </div>
-        
       </div>
     </div>
   );

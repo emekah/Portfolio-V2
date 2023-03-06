@@ -3,25 +3,27 @@
 // @import "./../../styles/functions";
 
 .footer {
-  padding: 70px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  &__container {
-    max-width: 600px;
+  width: 100%;
+  margin-block-end: 30px;
+  background: rgb(246, 232, 255);
+  background: linear-gradient(
+    144deg,
+    rgba(246, 232, 255, 1) 0%,
+    rgba(236, 248, 255, 1) 58%,
+    rgba(194, 255, 192, 1) 100%
+  );
+  border-radius: 20px !important;
+  &__cta {
+    padding-top: 50px;
   }
-  &__icons {
+  &__cta__icons ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 20px;
+    justify-content: center;
   }
   &__credit {
-    p {
-      font-size: 12px;
-    }
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 500;
   }
 }

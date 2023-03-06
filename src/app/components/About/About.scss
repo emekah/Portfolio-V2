@@ -3,50 +3,6 @@
 // @import "./../../styles/functions";
 
 
-.about {
-  min-height: 100vh;
-  padding: 0 30px;
-  display: flex;
-  justify-content: center !important;
-  align-items: center !important;
-  // @include media-breakpoint-down(md) {
-  //   padding: calcRem(10px);
-  // }
-
-  @media only screen and (max-width: 768px) {
-    .about {
-      padding: 10px;
-    }
-  }
-
-  &__desc {
-    line-height: 1.7;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  &__tech {
-    display: flex;
-    align-items: baseline;
-    padding-bottom: 10px;
-    p {
-      font-size: 11px;
-      font-weight: 600;
-    }
-  }
-  &__image {
-    img {
-      width: 100%;
-      max-width: 400px;
-      min-height: 400px;
-      object-fit: cover;
-      border-radius: 30px;
-      filter: none;
-      -webkit-filter: grayscale(0);
-    }
-  }
-}
-
-.about__image img:hover {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+.work {
+  
 }

@@ -3,12 +3,11 @@
 // @import "./../../styles/functions";
 
 .app {
-  background-color: $navyblue;
+  background-color: $white;
+  scroll-behavior: smooth;
   &__container {
     padding: 0 100px !important;
-    // @include media-breakpoint-down(md) {
-    //   padding: 0 20px !important;
-    // }
+    
   }
 
 }

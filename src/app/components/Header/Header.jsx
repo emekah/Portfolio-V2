@@ -37,15 +37,30 @@ const Header = () => {
           />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="ms-auto navbarFlex">
-              <Link to="about" className="nav-link">
-                about
-              </Link>
-              <Link to="projects" className="nav-link">
-                projects
-              </Link>
-              <Link to="contact" className="nav-link">
-                contact
-              </Link>
+              <a
+                href="https://www.linkedin.com/in/emeka-peacewill/"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-link"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/emekah"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-link"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.behance.net/emekah"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-link"
+              >
+                Behance
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

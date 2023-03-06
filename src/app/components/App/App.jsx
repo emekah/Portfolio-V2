@@ -5,9 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from ".././Footer/Footer";
 import About from "../About/About";
 import Hero from "../Hero/Hero";
-import Work from "../Work/Work";
-import SideIcons from "../SideIcons/SideIcons";
-import SideEmail from "../SideEmail/SideEmail";
+import Folio from "../Folio/Folio";
 
 
 
@@ -16,16 +14,17 @@ const App = () => {
     <div className="app">
       <Header />
 
-      <SideIcons />
+      {/* <SideIcons />
 
       <SideEmail />
-      <hr/>
+      <hr/> */}
       
       <Hero />
 
       <About />
 
-      <Work />
+      <Folio />
+      
 
       <Footer />
     </div>
