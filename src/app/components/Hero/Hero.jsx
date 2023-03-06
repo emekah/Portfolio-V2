@@ -1,8 +1,5 @@
 import "./Hero.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
-import { Link } from "react-scroll";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import Emeka from "./../../assets/images/emeka-portrait.jpg";
 
 const Hero = () => {
@@ -12,18 +9,17 @@ const Hero = () => {
         <div className="col-lg-8 col-md-12 col-sm-12 order-sm-1 order-last col-border">
           <div className="hero__left ">
             <h1 className="hero__left__title">
-              Hello, I'm Emeka, a piano player
-              who is passionate about designing 
+              Hello, I'm Emeka, a piano player who is passionate about designing
               and building things for the web.
             </h1>
             <p className="hero__left__subtitle">
-              With 4 years of honing my development and design skills, I have
-              built and designed brilliant web and mobile apps. Apart from
-              coding, I enjoy the process of bringing ideas from conceptual
-              stage to actualization stage. The sheer joy of overcoming every
-              huddle along the way keeps me motivated. When I'm not coding, I am
-              either writing a song, playing piano or spending quality time
-              with family.
+              I have built and designed brilliant web and mobile apps. I enjoy
+              the process of bringing ideas from conceptual stage to
+              actualization stage. The sheer joy of overcoming every huddle
+              along the way keeps me motivated. Constant learning and team work
+              is a major strenght of mine. When I'm not coding, I am either
+              writing a song, playing piano or spending quality time with
+              family.
             </p>
             <p className="hero__left__skills text-black text-bold">
               HTML • CSS • Tailwind CSS • Bootstrap • JavaScript • React

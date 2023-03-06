@@ -2,17 +2,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import "./Work.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router"
 import Button from "./../Button/Button";
-import FirstWork from "../../assets/images/destination-4.jpg";
-import Project from "./../Project/Project";
-import ProjectFlip from "../ProjectFlip/ProjectFlip";
-import Heyward from "./../../assets/images/heywardPortfolio.png";
-import Portfolio from "./../../assets/images/portcv.jpg";
-import Wedah from "./../../assets/images/portcv-2.jpg";
-import Timpa from "./../../assets/images/timpa-proj.png";
-import Avo from "./../../assets/images/avo-proj.png";
-// import UI from "./../../assets/images/ui-design.png";
 
 const Work = (props) => {
   return (
