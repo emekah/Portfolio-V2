@@ -24,6 +24,7 @@ const Folio = () => {
           // eslint-disable-next-line react/style-prop-object
           style="btn-fill"
           text="Portfolio"
+          link="https://emekaosuji.netlify.app"
         />
         <Work
           image={Work3}

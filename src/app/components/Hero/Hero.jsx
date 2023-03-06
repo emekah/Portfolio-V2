@@ -25,10 +25,10 @@ const Hero = () => {
               HTML • CSS • Tailwind CSS • Bootstrap • JavaScript • React
             </p>
             <div className="hero__left__cta">
-              <a href="#" className="hero__left__cta__btn btn-outline mr-2">
+              <a href="" className="hero__left__cta__btn btn-outline mr-2">
                 View My Resume
               </a>
-              <a href="#" className="hero__left__cta__btn btn-outline ">
+              <a href="mailto:emekah@icloud.com" className="hero__left__cta__btn btn-outline ">
                 Contact Me
               </a>
             </div>
