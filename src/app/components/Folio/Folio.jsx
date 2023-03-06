@@ -9,7 +9,7 @@ import Work4 from "./../../assets/images/emeka-gradient.jpg";
 const Folio = () => {
   return (
     <div className="container work container-centered">
-      <div className="row">
+      <div className="row g-2">
         <Work
           image={Work1}
           alt="First Work"
