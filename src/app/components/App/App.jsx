@@ -3,7 +3,6 @@ import "../App/App.scss";
 import Header from "../Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from ".././Footer/Footer";
-import About from "../About/About";
 import Hero from "../Hero/Hero";
 import Folio from "../Folio/Folio";
 
@@ -21,7 +20,7 @@ const App = () => {
       
       <Hero />
 
-      <About />
+      
 
       <Folio />
       
