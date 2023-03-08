@@ -54,12 +54,12 @@ const Header = () => {
                 GitHub
               </a>
               <a
-                href="https://www.behance.net/emekah"
+                href="https://www.emekah.net"
                 target="_blank"
                 rel="noreferrer"
                 className="nav-link"
               >
-                Behance
+                Design
               </a>
             </Nav>
           </Navbar.Collapse>
