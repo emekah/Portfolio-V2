@@ -6,26 +6,17 @@ import Footer from ".././Footer/Footer";
 import Hero from "../Hero/Hero";
 import Folio from "../Folio/Folio";
 
-
-
 const App = () => {
   return (
     <div className="app">
       <Header />
+      <div className="container">
+        <Hero />
 
-      {/* <SideIcons />
+        <Folio />
 
-      <SideEmail />
-      <hr/> */}
-      
-      <Hero />
-
-      
-
-      <Folio />
-      
-
-      <Footer />
+        <Footer />
+      </div>
     </div>
   );
 };

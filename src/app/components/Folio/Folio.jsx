@@ -8,7 +8,7 @@ import Work4 from "./../../assets/images/emeka-gradient.jpg";
 
 const Folio = () => {
   return (
-    <div className="container work container-centered">
+    <div className="work container-centered">
       <div className="row g-3">
         <Work
           image={Work1}
@@ -16,7 +16,7 @@ const Folio = () => {
           // eslint-disable-next-line react/style-prop-object
           style="btn-fill"
           text="Janded"
-          link='https://emekah.github.io/Janded/'
+          link="https://emekah.github.io/Janded/"
         />
         <Work
           image={Work2}
@@ -32,7 +32,7 @@ const Folio = () => {
           // eslint-disable-next-line react/style-prop-object
           style="btn-fill"
           text="Wedah App"
-          link='https://emekah.github.io/wedah/'
+          link="https://emekah.github.io/wedah/"
         />
         <Work
           image={Work4}
@@ -40,7 +40,7 @@ const Folio = () => {
           // eslint-disable-next-line react/style-prop-object
           style="btn-fill"
           text="Color Flipper"
-          link='https://emekah.github.io/color-flipper/hex.html'
+          link="https://emekah.github.io/color-flipper/hex.html"
         />
         
       </div>

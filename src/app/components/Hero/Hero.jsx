@@ -1,10 +1,11 @@
 import "./Hero.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Emeka from "./../../assets/images/emeka-portrait.jpg";
+import Resume from "./../../views/Resume";
 
 const Hero = () => {
   return (
-    <div className="container hero">
+    <div className="hero">
       <div className="row hero-row justify-content-center g-lg-3 g-1">
         <div className="col-lg-8 col-md-12 col-sm-12 order-sm-1 order-last col-border">
           <div className="hero__left ">
@@ -25,10 +26,17 @@ const Hero = () => {
               HTML • CSS • Tailwind CSS • Bootstrap • JavaScript • React
             </p>
             <div className="hero__left__cta">
-              <a href="" className="hero__left__cta__btn btn-outline mr-2">
+              <a
+                href="https://drive.google.com/file/d/1AVrrjncOnyfO8Pfihibk1qZoQromgxrd/view?usp=share_link"
+                target="_blank"
+                className="hero__left__cta__btn btn-outline mr-2"
+              >
                 View My Resume
               </a>
-              <a href="mailto:emekah@icloud.com" className="hero__left__cta__btn btn-outline ">
+              <a
+                href="mailto:emekah@icloud.com"
+                className="hero__left__cta__btn btn-outline "
+              >
                 Contact Me
               </a>
             </div>
