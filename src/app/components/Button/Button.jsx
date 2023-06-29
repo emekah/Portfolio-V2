@@ -7,6 +7,7 @@ const Button = (props) => {
       <a href={props.link} className={props.styling}>
         <span>{props.text}</span>
       </a>
+      
     </div>
   );
 };

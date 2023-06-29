@@ -30,6 +30,7 @@ const Hero = () => {
                 href="https://drive.google.com/file/d/1AVrrjncOnyfO8Pfihibk1qZoQromgxrd/view?usp=share_link"
                 target="_blank"
                 className="hero__left__cta__btn btn-outline mr-2"
+                
               >
                 View My Resume
               </a>
